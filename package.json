@@ -23,6 +23,6 @@
     "tailwind-todo": "^1.5.8",
     "json-crud-ui-init": "^1.3.5",
     "tailwind-table-dom": "^1.2.8",
-    "json-crud-ui-table": "^1.7.3"
+    "json-crud-ui-table": "^1.8.5"
   }
 }
