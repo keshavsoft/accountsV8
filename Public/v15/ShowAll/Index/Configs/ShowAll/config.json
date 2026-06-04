@@ -1,0 +1,35 @@
+{
+    "containerId": "kSTableContainer",
+    "tableName": "",
+    "mode": "create",
+    "layout": {
+        "verticalPosition": "top",
+        "type": "table"
+    },
+    "endPoints": {
+        "create": "",
+        "update": "",
+        "delete": "",
+        "read": "/Api/V1/journals/ShowAll",
+        "find": "",
+        "filter": "",
+        "dataLists": {}
+    },
+    "options": {
+        "enabledSections": [
+            "vertical",
+            "table",
+            "footer"
+        ]
+    },
+    "columnsConfig": [
+        {
+            "columnName": "AccountName",
+            "cellConfig": {
+                "width": "150px"
+            },
+            "isSearchable": false,
+            "dataListSource": "Dates.Date"
+        }
+    ]
+}
