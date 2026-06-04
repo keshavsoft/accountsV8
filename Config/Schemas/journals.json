@@ -79,5 +79,24 @@
     ]
   },
   "PrimarykeyTableNames": [],
-  "PrimarykeyTables": []
+  "PrimarykeyTables": [],
+  "columnsConfig": [
+    {
+      "columnName": "Date",
+      "cellConfig": {
+        "width": "150px"
+      },
+      "isSearchable": false,
+      "dataListSource": "Dates.Date"
+    },
+    {
+      "columnName": "AccountName",
+      "title": "Parent Name",
+      "cellConfig": {
+        "width": "100px"
+      },
+      "isSearchable": false,
+      "dataListSource": "AccountNames.AccountName"
+    }
+  ]
 }
