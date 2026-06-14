@@ -95,7 +95,7 @@
   },
   "PrimarykeyTableNames": [],
   "PrimarykeyTables": [],
-  "columnsConfig": [
+  "columnsConfig1": [
     {
       "columnName": "Date",
       "cellConfig": {
@@ -112,6 +112,89 @@
       },
       "isSearchable": false,
       "dataListSource": "AccountNames.AccountName"
+    }
+  ],
+  "columnsConfig": [
+    {
+      "columnName": "Date",
+      "title": "Date",
+      "cellConfig": {
+        "width": "150px"
+      },
+      "isSearchable": false,
+      "dataListSource": "Dates.Date"
+    },
+    {
+      "columnName": "AccountName",
+      "title": "Account Name",
+      "cellConfig": {
+        "width": "100px"
+      },
+      "isSearchable": false,
+      "dataListSource": "AccountNames.AccountName"
+    },
+    {
+      "columnName": "idno11",
+      "title": "idno11",
+      "cellConfig": {
+        "width": "100px"
+      }
+    },
+    {
+      "columnName": "acc_cod11",
+      "title": "acc_cod11",
+      "cellConfig": {
+        "width": "100px"
+      }
+    },
+    {
+      "columnName": "Description",
+      "title": "Description",
+      "cellConfig": {
+        "width": "100px"
+      }
+    },
+    {
+      "columnName": "amt",
+      "title": "amt",
+      "cellConfig": {
+        "width": "100px"
+      }
+    },
+    {
+      "columnName": "VoucherName",
+      "title": "VoucherName",
+      "cellConfig": {
+        "width": "100px"
+      }
+    },
+    {
+      "columnName": "ParentVoucherName",
+      "title": "ParentVoucherName",
+      "cellConfig": {
+        "width": "100px"
+      }
+    },
+    {
+      "columnName": "nam7",
+      "title": "nam7",
+      "cellConfig": {
+        "width": "100px"
+      }
+    },
+    {
+      "columnName": "Credit",
+      "title": "Credit",
+      "cellConfig": {
+        "width": "100px"
+      }
+    },
+    {
+      "columnName": "Debit",
+      "title": "Debit",
+      "cellConfig": {
+        "width": "100px"
+      }
     }
   ]
 }
